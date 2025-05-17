@@ -38,6 +38,10 @@ def start(store: Store):
             shopping_list = []
             products = store.get_all_products()
 
+            if not products:
+                print("No active products available to order.")
+                continue
+
             print("\nChoose products to order (type 'done' to finish):")
 
             for idx, product in enumerate(products, start=1):
@@ -54,13 +58,25 @@ def start(store: Store):
                     continue
 
                 product_index = int(selected) - 1
-                quantity = input("Enter quantity: ")
+                quantity_input = input("Enter quantity: ")
 
-                if not quantity.isdigit():
+                if not quantity_input.isdigit():
                     print("Quantity must be a number.")
                     continue
 
-                shopping_list.append((products[product_index], int(quantity)))
+                quantity = int(quantity_input)
+                if quantity <= 0:
+                    print("Quantity must be greater than zero.")
+                    continue
+
+                product = products[product_index]
+
+                # Prüfen, ob genug Menge da ist (ohne Kauf auszuführen)
+                if quantity > product.get_quantity():
+                    print(f"Sorry, only {product.get_quantity()} units of {product.name} available.")
+                    continue
+
+                shopping_list.append((product, quantity))
 
             if shopping_list:
                 try:
@@ -82,11 +98,15 @@ if __name__ == "__main__":
     """
     Initializes the default store inventory and starts the store interface.
     """
-    product_list = [
-        Product("MacBook Air M2", price=1450, quantity=100),
-        Product("Bose QuietComfort Earbuds", price=250, quantity=500),
-        Product("Google Pixel 7", price=500, quantity=250)
-    ]
+    try:
+        product_list = [
+            Product("MacBook Air M2", price=1450, quantity=100),
+            Product("Bose QuietComfort Earbuds", price=250, quantity=500),
+            Product("Google Pixel 7", price=500, quantity=250)
+        ]
+    except Exception as e:
+        print(f"Error creating initial products: {e}")
+        product_list = []
 
     best_buy = Store(product_list)
     start(best_buy)
