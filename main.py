@@ -3,6 +3,18 @@ from store import Store
 
 
 def start(store: Store):
+    """
+    Starts the command-line interface for interacting with the store.
+
+    Args:
+        store (Store): An instance of the Store class with products.
+
+    Allows the user to:
+        - List all active products in the store
+        - Show the total quantity of all products
+        - Make a multi-product order
+        - Quit the application
+    """
     print("\n======= Store =======")
 
     while True:
@@ -19,10 +31,10 @@ def start(store: Store):
             for product in store.get_all_products():
                 print(product.show())
 
-        elif choice == "2":
+        if choice == "2":
             print("\nTotal quantity in store:", store.get_total_quantity())
 
-        elif choice == "3":
+        if choice == "3":
             shopping_list = []
             products = store.get_all_products()
 
@@ -57,16 +69,19 @@ def start(store: Store):
                 except Exception as e:
                     print(f"Error during order: {e}")
 
-        elif choice == "4":
+        if choice == "4":
             print("Thank you for using the store CLI. Goodbye!")
             break
 
-        else:
+        if choice not in {"1", "2", "3", "4"}:
             print("Invalid choice. Please try again.")
 
 
 # ====== SETUP INITIAL STOCK ======
 if __name__ == "__main__":
+    """
+    Initializes the default store inventory and starts the store interface.
+    """
     product_list = [
         Product("MacBook Air M2", price=1450, quantity=100),
         Product("Bose QuietComfort Earbuds", price=250, quantity=500),
