@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="547418c9-8f0d-4c56-a0e1-53c5615ce41b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Best-Buy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Buy/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Best-Buy/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Buy/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Best-Buy/store.py" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Buy/store.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2uAgNlweCPhwQItpDeFwXDdmBYE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Python tests in test2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_python_requests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.animals_web_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.beautyfullsoup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator_all_operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coding_gym5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_fetcher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictinarys.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictinarys1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.help_your_teacher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.html_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.invoice_organizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ostest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prime_minister.executor&quot;: &quot;Run&quot;,
+    &quot;Python.products.executor&quot;: &quot;Run&quot;,
+    &quot;Python.re.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sprint_afgaben.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sprint_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summer_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zootopia_api.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ozancicek/PycharmProjects/Codio1/Zootopia-API&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Requirements&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Zootopia-API" />
+      <recent name="$PROJECT_DIR$/webshop" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Best-Buy" />
+      <recent name="$PROJECT_DIR$/Zootopia" />
+      <recent name="$PROJECT_DIR$/webshop" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/webshop/css" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="547418c9-8f0d-4c56-a0e1-53c5615ce41b" name="Changes" comment="" />
+      <created>1741696754315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741696754315</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
