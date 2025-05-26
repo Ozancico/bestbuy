@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Zootopia" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Zootopia-API" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Zootopia/My-Zootopia" vcs="Git" />
-  </component>
-</project>
